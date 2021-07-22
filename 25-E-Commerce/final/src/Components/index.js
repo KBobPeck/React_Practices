@@ -1,6 +1,6 @@
 import AddToCart from "./AddToCart";
 import AmountButton from "./AmountButton";
-import CartButton from "./CartButton";
+import CartButtons from "./CartButtons";
 import CartColumns from "./CartColumns";
 import CartContent from "./CartContent";
 import CartItem from "./CartItem";
@@ -24,7 +24,7 @@ import StripeCheckout from "./StripeCheckout";
 export {
   AddToCart,
   AmountButton,
-  CartButton,
+  CartButtons,
   CartColumns,
   CartContent,
   CartItem,

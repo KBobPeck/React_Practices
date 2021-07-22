@@ -6,7 +6,7 @@ import ErrorPage from "./ErrorPage";
 import HomePage from "./HomePage";
 import PrivateRoute from "./PrivateRoute";
 import ProductsPage from "./ProductsPage";
-import SingleProductsPage from "./SingleProductsPage";
+import SingleProductPage from "./SingleProductPage";
 
 export {
   AboutPage,
@@ -17,5 +17,5 @@ export {
   HomePage,
   PrivateRoute,
   ProductsPage,
-  SingleProductsPage,
+  SingleProductPage,
 };

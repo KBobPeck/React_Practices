@@ -1,7 +1,7 @@
-@use './base/index' as index;
-@use './components/index' as components;
 @use './functions/mixins' as functions;
+@use './base/index' as base;
 @use './layout/index' as layout;
 @use './pages/index' as pages;
+@use './components/index' as components;
 // @use './themes/index';
 @use './vendors/index' as vendors;

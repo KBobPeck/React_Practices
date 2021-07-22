@@ -4,6 +4,7 @@
 - react-icons
 - sass
 - Styled Components
+- @auth0/auth0-react
 
 # Getting Started with Create React App
 

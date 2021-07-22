@@ -1,0 +1,24 @@
+@use '../themes/index' as theme;
+
+.footer-container {
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: theme.$clr-black;
+  text-align: center;
+  span {
+    color: theme.$clr-primary-5;
+  }
+  h5 {
+    color: theme.$clr-white;
+    margin: 0.1rem;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.25;
+  }
+  @media (min-width: 776px) {
+    flex-direction: row;
+  }
+}
