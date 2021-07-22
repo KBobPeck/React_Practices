@@ -3,6 +3,7 @@
 - react-router-dom
 - react-icons
 - sass
+- Styled Components
 
 # Getting Started with Create React App
 

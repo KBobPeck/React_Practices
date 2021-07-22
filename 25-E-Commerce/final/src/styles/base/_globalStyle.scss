@@ -1,7 +1,6 @@
-@use 'partials/colors' as c;
-
 // reset style sheet, a good start for any project
 
+@use '../functions/colors' as c;
 *,
 ::before,
 ::after {
@@ -12,8 +11,8 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-    "Helvetica Neue", sans-serif;
-  background-color: c.$clr-white;
+  "Helvetica Neue", sans-serif;
+  background-color: c.$clrs;
   color: c.$clr-grey-1;
 }
 
@@ -67,7 +66,7 @@ p {
   h4 {
     line-height: 1;
   }
-
+  
   h1 {
     font-size: 3rem;
   }
@@ -161,3 +160,4 @@ p {
   border-top-color: c.$clr-primary-5;
   animation: spinner 0.6s linear infinite;
 }
+
