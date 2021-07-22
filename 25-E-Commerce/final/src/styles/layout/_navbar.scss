@@ -1,0 +1,14 @@
+@use '../themes/index' as theme;
+
+.navbar-container {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .nav-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: theme.$max-width;
+  }
+}

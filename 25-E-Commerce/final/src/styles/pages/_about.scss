@@ -1,0 +1,29 @@
+@use '../themes/index' as c;
+
+section.aboutPage {
+  display: grid;
+  gap: 4rem;
+  img {
+    width: 100%;
+    display: block;
+    border-radius: c.$radius;
+    height: 500px;
+    object-fit: cover;
+  }
+  p {
+    line-height: 2;
+    max-width: 45rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    color: c.$clr-grey-5;
+  }
+  .title {
+    text-align: left;
+  }
+  .underline {
+    margin-left: 0;
+  }
+  @media (min-width: 992px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
